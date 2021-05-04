@@ -13,7 +13,7 @@ if(parolaGirata == parolaUtente){
 
 function rovesciaParola(parola){
   var parolaReverse = '';
-  for(var i = parola.length -1; i>=0; i--){
+  for (var i = parola.length -1; i>=0; i--) {
     parolaReverse += parola[i];
   }
   return parolaReverse;
